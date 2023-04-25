@@ -7,8 +7,8 @@ body {
 }
 .cards {
   background-color: white;
-  width: 40vw;
-  height: 50vw;
+  width: 30vw;
+  height: 40vw;
   border: 1mm solid black;
   border-radius: 15px;
   margin-top: 2vw;
@@ -38,4 +38,12 @@ body {
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
+}
+.♦,
+.♥ {
+  color: red;
+}
+.♠,
+.♣ {
+  color: black;
 }
