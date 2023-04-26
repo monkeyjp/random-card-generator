@@ -9,7 +9,7 @@ window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
   let randomCardValue = Math.floor(Math.random() * 13);
-  const cardValues = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "k", "A"];
+  const cardValues = [2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K", "A"];
   let randomCardSuits = Math.floor(Math.random() * 4);
   const cardSuits = ["♦", "♥", "♠", "♣"];
   let cardValue = document.querySelector(".cardValue");
